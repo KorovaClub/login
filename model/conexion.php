@@ -4,13 +4,27 @@
 
     class Conexion
     {
-
+      /*
         # Atributos de la clase conexion
         private $mysqli = '';
         private $usuario = 'sql10720815';
         private $clave = 'FlxYESglgi';
         private $server = 'http://sql10.freesqldatabase.com/';
         private $db = 'korovaclub';
+      
+        # Atributos de la clase conexion
+        private $mysqli = '';
+        private $usuario = 'root';
+        private $clave = '';
+        private $server = 'localhost';
+        private $db = 'login';
+      */
+      MYSQL_ADDON_HOST='b2yxd2nferymevfuwqsc-mysql.services.clever-cloud.com';
+      MYSQL_ADDON_DB='b2yxd2nferymevfuwqsc';
+      MYSQL_ADDON_USER='uzumgywdy3ro8e8t';
+      MYSQL_ADDON_PORT='3306';
+      MYSQL_ADDON_PASSWORD='9emHixsxqoEvf91Bq1WT';
+      MYSQL_ADDON_URI='mysql://uzumgywdy3ro8e8t:9emHixsxqoEvf91Bq1WT@b2yxd2nferymevfuwqsc-mysql.services.clever-cloud.com:3306/b2yxd2nferymevfuwqsc';
 
 
         # Funcion que permite conectarnos a la base de datos
